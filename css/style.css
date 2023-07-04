@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Inter-Regular";
 }
 a {
   text-decoration: none;
@@ -11,12 +12,10 @@ li {
   list-style-type: none;
 }
 header {
-  max-width: 1440px;
   width: 100%;
   height: 100%;
 }
 .headerContent {
-  max-width: 1440px;
   width: 100%;
   margin: 20px auto;
   display: flex;
@@ -72,7 +71,6 @@ header {
   color: #8b96a5;
   text-align: center;
   font-size: 12px;
-  font-family: "IntInter-Regular";
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -82,7 +80,6 @@ header {
   height: 20px;
 }
 nav {
-  max-width: 1440px;
   width: 100%;
   height: 56px;
   display: flex;
@@ -114,9 +111,9 @@ nav {
   display: inline-block;
   position: relative;
 }
-.navMain a,p {
+.navMain a,
+p {
   font-size: 16px;
-  font-family: "Inter-Regular";
   font-style: normal;
   font-weight: 500;
   line-height: 22px;
@@ -139,7 +136,6 @@ nav {
 #currency {
   border: none;
   font-size: 16px;
-  font-family: "Inter-Regular";
   font-style: normal;
   font-weight: 500;
   line-height: 22px;
@@ -166,7 +162,6 @@ nav {
   top: 100%;
   left: 0;
   z-index: 1;
-  font-family: "Inter-Regular";
   font-size: 16px;
   text-align: left;
   list-style: none;
@@ -201,4 +196,267 @@ nav {
 }
 .flagsImages {
   width: 30px;
+}
+/* Main and Sections */
+main {
+  max-width: 1440px;
+  width: 100%;
+}
+.mainCard {
+  max-width: 1180px;
+  width: 100%;
+  margin: 20px auto;
+  padding: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #ffffff;
+  border: 1px solid #dee2e7;
+  border-radius: 5px;
+}
+.sideBar {
+  max-width: 250px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 10px;
+  height: 100%;
+}
+.sideBar a {
+  padding: 6px 14px;
+  color: #1c1c1c;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.sideBar a:hover {
+  background-color: #e5f1ff;
+  border-radius: 8px;
+}
+.mainImg {
+  max-width: 664px;
+  min-height: 373px;
+  width: 100%;
+  height: 100%;
+  background-image: url(./images/Banner-board-800x420\ 2.png);
+  background-repeat: no-repeat;
+  padding: 56px 0 0 44px;
+}
+.mainImg h1 {
+  color: #1c1c1c;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.mainImg h2 {
+  color: #1c1c1c;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.mainBtn {
+  background-color: #ffffff;
+  color: #1c1c1c;
+  height: 40px;
+  padding: 0px 16px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 17px;
+  text-align: center;
+}
+.offers {
+  display: flex;
+  flex-direction: column;
+  max-width: 250px;
+  width: 100%;
+  padding-left: 20px;
+}
+.offersInfo {
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+  width: 100%;
+  background-color: #e3f0ff;
+  border-radius: 5px;
+}
+.user {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 14px auto;
+  gap: 9px;
+}
+.user > p {
+  color: #1c1c1c;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.join {
+  margin: auto;
+  width: 180px;
+  height: 30px;
+  padding: 0px 10px;
+  border-radius: 6px;
+  border: none;
+  background: linear-gradient(#127fff, #0067ff);
+  color: #ffffff;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 500;
+}
+.logIn {
+  border: none;
+  background-color: #ffffff;
+  color: #0d6efd;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 500;
+  margin: 7px auto 12px;
+  width: 180px;
+  height: 30px;
+  padding: 0px 10px;
+  text-align: center;
+  border-radius: 6px;
+}
+.off {
+  background-color: #f38332;
+  border-radius: 6px;
+  max-width: 200px;
+  width: 100%;
+  height: 95px;
+  margin-top: 10px;
+  padding: 16px 40px 22px 16px;
+}
+.off > p {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.quotes {
+  background-color: #55bdc3;
+  border-radius: 6px;
+  max-width: 200px;
+  width: 100%;
+  height: 95px;
+  margin-top: 10px;
+  padding: 16px 44px 22px 16px;
+}
+.quotes > p {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.deal-offer {
+  max-width: 1180px;
+  width: 100%;
+  height: 240px;
+  margin: 0 auto;
+  border: 1px solid #dee2e7;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+.dates h4 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -0.2px;
+  color: #1c1c1c;
+}
+.dates > p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #8b96a5;
+}
+.dates {
+  max-width: 281px;
+  width: 100%;
+  height: 100%;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #e0e0e0;
+}
+.date {
+  display: flex;
+  gap: 5px;
+}
+.box {
+  width: 45px;
+  height: 50px;
+  border-radius: 4px;
+  background: #606060;
+  text-align: center;
+  margin-top: 18px;
+}
+.txtBox {
+  padding-top: 8px;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #fff;
+}
+.time {
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.dealItems{
+  text-align: center;
+  max-width: 179px;
+  width: 100%;
+  height: 100%;
+  border-right: 1px solid #E0E0E0;
+}
+.dealItems > img{
+  width: 140px;
+  height: 140px;
+  padding: 9.333px 19.289px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+.dealItemtxt{
+  color: #1c1c1c;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+}
+.sale{
+  border-radius: 29px;
+  background-color: #FFE3E3;
+  width: 62px;
+  height: 28px;
+  padding: 6px 6px;
+  margin: 0 auto;
+  color: #EB001B;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.2px;
 }

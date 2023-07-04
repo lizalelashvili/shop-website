@@ -49,3 +49,5 @@ document.addEventListener("click", (event) => {
     flagsContainer.querySelector(".flagsImages").alt = flagsImage.alt;
   }
 });
+
+// countdown
