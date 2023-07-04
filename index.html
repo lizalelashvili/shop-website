@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/fonts/stylesheet.css" />
+  </head>
+  <body>
+    <header>
+      <div class="headerContent">
+        <div class="logo">
+          <img
+            class="shoppinglogo"
+            src="css/images/logo-symbol.svg"
+            alt="shopping logo"
+          />
+          <img src="css/images/Brand.svg" alt="brand logo" />
+        </div>
+        <div class="search">
+          <input type="text" id="search" placeholder="Search" />
+          <select id="options" name="options">
+            <option value="All category">All category</option>
+            <option value="Automobiles">Automobiles</option>
+            <option value="Clothes and wear">Clothes and wear</option>
+            <option value="Home interiors">Home interiors</option>
+            <option value="Computer and tech">Computer and tech</option>
+            <option value="Tools, equipments">Tools, equipments</option>
+            <option value="Sports and outdoor">Sports and outdoor</option>
+            <option value="Animal and pets">Animal and pets</option>
+            <option value="Machinery tools">Machinery tools</option>
+            <option value="More category">More category</option>
+          </select>
+          <button>Search</button>
+        </div>
+        <div class="profileInfo">
+          <div class="profile">
+            <img src="css/images/Vector.png" alt="profile" />
+            <p>Profile</p>
+          </div>
+          <div class="message">
+            <img src="css/images/2Vector.png" alt="message" />
+            <p>Message</p>
+          </div>
+          <div class="orders">
+            <img src="css/images/3Vector.png" alt="heart" />
+            <p>Orders</p>
+          </div>
+          <div class="cart">
+            <img src="css/images/4Vector.png" alt="cart" />
+            <p>My cart</p>
+          </div>
+        </div>
+      </div>
+      <nav>
+        <div class="navMain">
+          <div class="catBtn">
+            <button class="navBtn">
+              <img src="css/images/menu.png" alt="menu" />
+            </button>
+            <p>All category</p>
+          </div>
+          <a href="#">Hot offers</a>
+          <a href="#">Gift boxes</a>
+          <a href="#">Projects</a>
+          <a href="#">Menu item</a>
+          <div class="dropdown">
+            <a href="#" class="help"
+              >Help <img src="css/images/expand_more.png" alt="arrow"
+            /></a>
+          </div>
+        </div>
+        <div class="currency">
+          <select name="currency" id="currency">
+            <option value="USD">English,USD</option>
+            <option value="Euro">Eur</option>
+            <option value="UAE">UAE</option>
+            <option value="GBP">GBP</option>
+          </select>
+          <div class="shipping">
+            <p>Ship to</p>
+            <button class="shipTo">
+              <img src="css/images/expand_more.png" alt="arrow" />
+            </button>
+            <div class="shippingMenu">
+              <ul id="countryDropdown"></ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <script src="app.js"></script>
+  </body>
+</html>
