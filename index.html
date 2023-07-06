@@ -5,18 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shopping</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="css/fonts/stylesheet.css" />
   </head>
   <body>
     <header>
       <div class="headerContent">
         <div class="logo">
-          <img
-            class="shoppinglogo"
-            src="css/images/logo-symbol.svg"
-            alt="shopping logo"
-          />
-          <img src="css/images/Brand.svg" alt="brand logo" />
+          <img src="css/images/logo-colored.svg" alt="logo">
         </div>
         <div class="search">
           <input type="text" id="search" placeholder="Search" />
@@ -91,95 +87,564 @@
       </nav>
     </header>
     <main>
-        <div class="mainCard">
-            <div class="sideBar">
-                <a href="#">Automobiles</a>
-                <a href="#">Clothes and wear</a>
-                <a href="#">Home interiors</a>
-                <a href="#">Computer and tech</a>
-                <a href="#">Tools, equipments</a>
-                <a href="#">Sports and outdoor</a>
-                <a href="#">Animal and pets</a>
-                <a href="#">Machinery tools</a>
-                <a href="#">More category</a>
+      <div class="mainCard">
+        <div class="sideBar">
+          <a href="#">Automobiles</a>
+          <a href="#">Clothes and wear</a>
+          <a href="#">Home interiors</a>
+          <a href="#">Computer and tech</a>
+          <a href="#">Tools, equipments</a>
+          <a href="#">Sports and outdoor</a>
+          <a href="#">Animal and pets</a>
+          <a href="#">Machinery tools</a>
+          <a href="#">More category</a>
+        </div>
+        <div class="mainImg">
+          <h2>Latest trending</h2>
+          <h1>Electronic items</h1>
+          <button class="mainBtn">Learn more</button>
+        </div>
+        <div class="offers">
+          <div class="offersInfo">
+            <div class="user">
+              <img src="css/images/Avatar.jpg" alt="avatar" />
+              <div>
+                <p>Hi,user</p>
+                <p>let's get stated</p>
+              </div>
             </div>
-            <div class="mainImg">
-                <h2>Latest trending</h2>
-                <h1>Electronic items</h1>
-                <button class="mainBtn">Learn more</button>
+            <button class="join">Join now</button>
+            <button class="logIn">Log in</button>
+          </div>
+          <div class="off">
+            <p>Get US $10 off with a new supplier</p>
+          </div>
+          <div class="quotes">
+            <p>quotes with supplier preferences</p>
+          </div>
+        </div>
+      </div>
+      <section class="dealsOffers">
+        <div class="deal-offer">
+          <div class="dates">
+            <h4>Deals and offers</h4>
+            <p>Hygiene equipments</p>
+            <div class="date">
+              <div class="box">
+                <p class="day txtBox"></p>
+                <p class="time">Days</p>
+              </div>
+              <div class="box">
+                <p class="hour txtBox"></p>
+                <p class="time">Hours</p>
+              </div>
+              <div class="box">
+                <p class="min txtBox"></p>
+                <p class="time">Min</p>
+              </div>
+              <div class="box">
+                <p class="sec txtBox"></p>
+                <p class="time">Sec</p>
+              </div>
             </div>
-            <div class="offers">
-                <div class="offersInfo">
-                    <div class="user">
-                        <img src="css/images/Avatar.jpg" alt="avatar">
-                        <div>
-                            <p>Hi,user</p>
-                            <p>let's get stated</p>
-                        </div>
-                    </div>
-                    <button class="join">Join now</button>
-                    <button class="logIn">Log in</button>
-                </div>
-                <div class="off">
-                    <p>Get US $10 off with a new supplier</p>
-                </div>
-                <div class="quotes">
-                    <p>quotes with supplier preferences</p>
-                </div>
+          </div>
+          <div class="dealItems">
+            <img src="css/images/tech/8.jpg" alt="watch" />
+            <p class="dealItemtxt">Smart watches</p>
+            <div class="sale">-25%</div>
+          </div>
+          <div class="dealItems">
+            <img src="css/images/tech/7.jpg" alt="laptop" />
+            <p class="dealItemtxt">Laptops</p>
+            <div class="sale">-15%</div>
+          </div>
+          <div class="dealItems">
+            <img src="css/images/tech/6.jpg" alt="camera" />
+            <p class="dealItemtxt">GoPro cameras</p>
+            <div class="sale">-40%</div>
+          </div>
+          <div class="dealItems">
+            <img src="css/images/tech/5.jpg" alt="headphone" />
+            <p class="dealItemtxt">Headphones</p>
+            <div class="sale">-25%</div>
+          </div>
+          <div class="dealItems">
+            <img src="css/images/tech/3.jpg" alt="phone" />
+            <p class="dealItemtxt">Canon camreras</p>
+            <div class="sale">-25%</div>
+          </div>
+        </div>
+      </section>
+      <section class="saleItem">
+        <div class="saleItemholder">
+          <div class="saleTitle">
+            <img src="css/images/interior/image 92.png" alt="living room" />
+            <div class="sale-title">
+              <h4>Home and outdoor</h4>
+              <button class="sourceBtn">Source now</button>
+            </div>
+          </div>
+          <div class="sale-item">
+            <div class="saleCard">
+              <div class="saleCardtxt">
+                <p class="saleTxt">Soft chairs</p>
+                <p class="salePrice">From</p>
+                <p class="salePrice">USD 19</p>
+              </div>
+              <img src="css/images/interior/1.jpg" alt="chair" />
+            </div>
+            <div class="saleCard">
+              <div class="saleCardtxt">
+                <p class="saleTxt">Sofa & chair</p>
+                <p class="salePrice">From</p>
+                <p class="salePrice">USD 19</p>
+              </div>
+              <img src="css/images/interior/6.jpg" alt="lamp" />
+            </div>
+            <div class="saleCard">
+              <div class="saleCardtxtt">
+                <p class="saleTxt">Kitchen dishes</p>
+                <p class="salePrice">From</p>
+                <p class="salePrice">USD 19</p>
+              </div>
+              <img src="css/images/interior/5.jpg" alt="kitchen" />
+            </div>
+            <div class="saleCard">
+              <div class="saleCardtxt">
+                <p class="saleTxt">Smart watches</p>
+                <p class="salePrice">From</p>
+                <p class="salePrice">USD 39</p>
+              </div>
+              <img src="css/images/interior/3.jpg" alt="pot" />
+            </div>
+            <div class="saleCard">
+              <div class="saleCardtxt">
+                <p class="saleTxt">Kitchen mixer</p>
+                <p class="salePrice">From</p>
+                <p class="salePrice">USD 19</p>
+              </div>
+              <img src="css/images/interior/9.jpg" alt="mixer" />
+            </div>
+            <div class="saleCard">
+              <div class="saleCardtxt">
+                <p class="saleTxt">Blenders</p>
+                <p class="salePrice">From</p>
+                <p class="salePrice">USD 100</p>
+              </div>
+              <img src="css/images/interior/8.jpg" alt="blender" />
+            </div>
+            <div class="saleCard">
+              <div class="saleCardtxt">
+                <p class="saleTxt">Home appliance</p>
+                <p class="salePrice">From</p>
+                <p class="salePrice">USD 19</p>
+              </div>
+              <img src="css/images/interior/7.jpg" alt="home appliance" />
+            </div>
+            <div class="saleCard">
+              <div class="saleCardtxt">
+                <p class="saleTxt">Coffee maker</p>
+                <p class="salePrice">From</p>
+                <p class="salePrice">USD 10</p>
+              </div>
+              <img src="css/images/interior/4.jpg" alt="plant" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="saleItem">
+        <div class="saleItemholder">
+          <div class="saleTitle">
+            <img src="css/images/tech/image 98.png" alt="gadgets" />
+            <div class="sale-title">
+              <h4>Consumer electronics and gadgets</h4>
+              <button class="sourceBtn">Source now</button>
+            </div>
+          </div>
+          <div class="sale-item">
+            <div class="saleCard">
+              <div class="saleCardtxt">
+                <p class="saleTxt">Smart watches</p>
+                <p class="salePrice">From</p>
+                <p class="salePrice">USD 19</p>
+              </div>
+              <img src="css/images/tech/8.jpg" alt="watch" />
+            </div>
+            <div class="saleCard">
+              <div class="saleCardtxt">
+                <p class="saleTxt">Cameras</p>
+                <p class="salePrice">From</p>
+                <p class="salePrice">USD 89</p>
+              </div>
+              <img src="css/images/tech/6.jpg" alt="camera" />
+            </div>
+            <div class="saleCard">
+              <div class="saleCardtxtt">
+                <p class="saleTxt">Headphones</p>
+                <p class="salePrice">From</p>
+                <p class="salePrice">USD 10</p>
+              </div>
+              <img src="css/images/tech/9.jpg" alt="headphone" />
+            </div>
+            <div class="saleCard">
+              <div class="saleCardtxt">
+                <p class="saleTxt">Smart watches</p>
+                <p class="salePrice">From</p>
+                <p class="salePrice">USD 90</p>
+              </div>
+              <img src="css/images/tech/10.jpg" alt="kettle" />
+            </div>
+            <div class="saleCard">
+              <div class="saleCardtxt">
+                <p class="saleTxt">Gaming set</p>
+                <p class="salePrice">From</p>
+                <p class="salePrice">USD 35</p>
+              </div>
+              <img src="css/images/tech/5.jpg" alt="headphone" />
+            </div>
+            <div class="saleCard">
+              <div class="saleCardtxt">
+                <p class="saleTxt">Laptops & PC</p>
+                <p class="salePrice">From</p>
+                <p class="salePrice">USD 340</p>
+              </div>
+              <img src="css/images/tech/7.jpg" alt="laptop" />
+            </div>
+            <div class="saleCard">
+              <div class="saleCardtxt">
+                <p class="saleTxt">Smartphones</p>
+                <p class="salePrice">From</p>
+                <p class="salePrice">USD 19</p>
+              </div>
+              <img src="css/images/tech/2.jpg" alt="tablet" />
+            </div>
+            <div class="saleCard">
+              <div class="saleCardtxt">
+                <p class="saleTxt">Electric kattle</p>
+                <p class="salePrice">From</p>
+                <p class="salePrice">USD 240</p>
+              </div>
+              <img src="css/images/tech/1.jpg" alt="iphone" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="opinion">
+        <div class="opinionCard">
+          <div class="opinionTxt">
+            <h2>An easy way to send requests to all suppliers</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt.
+            </p>
+          </div>
+          <form action="">
+            <h4>Send quote to suppliers</h4>
+            <div class="formRow">
+              <input
+                type="text"
+                name="need"
+                id="need"
+                placeholder=" What item you need?"
+              />
+            </div>
+            <div class="formRow">
+              <textarea
+                name="more"
+                id="more"
+                placeholder=" Type more details"
+                class="txtarea"
+              ></textarea>
+            </div>
+            <div class="quantity">
+              <label for="quantityLabel">Quantity</label>
+              <select name="quantity" id="quantity">
+                <option value="Pcs">Pcs</option>
+                <option value="kg">Kg</option>
+              </select>
+            </div>
+            <button type="submit" class="submit">Send inquiry</button>
+          </form>
+        </div>
+      </section>
+      <section class="recommended">
+        <h3>Recommended items</h3>
+        <div class="recomItems">
+          <article class="recomCard">
+            <img src="css/images/cloth/1.jpg" alt="shirt" />
+            <div class="recomTxt">
+              <p>$10.30</p>
+              <p>T-shirts with multiple colors, for men</p>
+            </div>
+          </article>
+          <article class="recomCard">
+            <img src="css/images/cloth/3.jpg" alt=coat">
+            <div class="recomTxt">
+              <p>$10.30</p>
+              <p>Jeans shorts for men blue color</p>
+            </div>
+          </article>
+          <article class="recomCard">
+            <img src="css/images/cloth/7.jpg" alt="suit" />
+            <div class="recomTxt">
+              <p>$12.50</p>
+              <p>Brown winter coat medium size</p>
+            </div>
+          </article>
+          <article class="recomCard">
+            <img src="css/images/cloth/6.jpg" alt="wallet" />
+            <div class="recomTxt">
+              <p>$34.00</p>
+              <p>Jeans bag for travel for men</p>
+            </div>
+          </article>
+          <article class="recomCard">
+            <img src="css/images/cloth/5.jpg" alt="bag" />
+            <div class="recomTxt">
+              <p>$99.00</p>
+              <p>Leather wallet</p>
+            </div>
+          </article>
+          <article class="recomCard">
+            <img src="css/images/cloth/4.jpg" alt="shorts" />
+            <div class="recomTxt">
+              <p>$9.99</p>
+              <p>Canon camera black, 100x zoom</p>
+            </div>
+          </article>
+          <article class="recomCard">
+            <img src="css/images/tech/9.jpg" alt="headphones" />
+            <div class="recomTxt">
+              <p>$8.99</p>
+              <p>Headset for gaming with mic</p>
+            </div>
+          </article>
+          <article class="recomCard">
+            <img src="css/images/cloth/5.jpg" alt="bag" />
+            <div class="recomTxt">
+              <p>$10.30</p>
+              <p>Smartwatch silver color modern</p>
+            </div>
+          </article>
+          <article class="recomCard">
+            <img src="css/images/interior/3.jpg" alt="pot" />
+            <div class="recomTxt">
+              <p>$10.30</p>
+              <p>Blue wallet for men leather metarfial</p>
+            </div>
+          </article>
+          <article class="recomCard">
+            <img src="css/images/tech/10.jpg" alt="kettle" />
+            <div class="recomTxt">
+              <p>$80.95</p>
+              <p>Jeans bag for travel for men</p>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="services">
+        <h3>Our extra services</h3>
+        <div class="serviceHolder">
+          <div class="serviceCard">
+            <img
+              src="css/images/image 108.png"
+              alt="boxes"
+              class="serviceImg"
+            />
+            <div class="iconBorder"></div>
+            <img src="css/images/search.svg" alt="icon" class="icon" />
+            <div class="serviceTxt">
+              <h4>Source from Industry Hubs</h4>
+            </div>
+          </div>
+          <div class="serviceCard">
+            <img
+              src="css/images/image 104.png"
+              alt="colors"
+              class="serviceImg"
+            />
+            <div class="iconBorder"></div>
+            <img src="css/images/inventory_2.svg" alt="icon" class="icon" />
+            <div class="serviceTxt">
+              <h4>Customize Your Products</h4>
+            </div>
+          </div>
+          <div class="serviceCard">
+            <img
+              src="css/images/image 106.png"
+              alt="plane"
+              class="serviceImg"
+            />
+            <div class="iconBorder"></div>
+            <img src="css/images/send.svg" alt="icon" class="icon" />
+            <div class="serviceTxt">
+              <h4>Fast, reliable shipping by ocean or air</h4>
+            </div>
+          </div>
+          <div class="serviceCard">
+            <img
+              src="css/images/image 107.png"
+              alt="employee"
+              class="serviceImg"
+            />
+            <div class="iconBorder"></div>
+            <img src="css/images/security.svg" alt="icon" class="icon" />
+            <div class="serviceTxt">
+              <h4>Product monitoring and inspection</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="supplier">
+        <h3>Suppliers by region</h3>
+        <div class="supplierCard">
+          <div class="supLink">
+            <img src="css/images/flags/AE.png" alt="AEU" />
+            <div class="supName">
+              <p>Arabic Emirates</p>
+              <a href="shopname.ae">shopname.ae</a>
+            </div>
+          </div>
+          <div class="supLink">
+            <img src="css/images/flags/AU.png" alt="Australia" />
+            <div class="supName">
+              <p>Australia</p>
+              <a href="shopname.ae">shopname.ae</a>
+            </div>
+          </div>
+          <div class="supLink">
+            <img src="css/images/flags/US.png" alt="USA" />
+            <div class="supName">
+              <p>United States</p>
+              <a href="shopname.ae">shopname.ae</a>
+            </div>
+          </div>
+          <div class="supLink">
+            <img src="css/images/flags/Shit.png" alt="Russia" />
+            <div class="supName">
+              <p>Russia</p>
+              <a href="shopname.ru">shopname.ru</a>
+            </div>
+          </div>
+          <div class="supLink">
+            <img src="css/images/flags/IT.png" alt="Italy" />
+            <div class="supName">
+              <p>Italy</p>
+              <a href="shopname.it">shopname.it</a>
+            </div>
+          </div>
+          <div class="supLink">
+            <img src="css/images/flags/DK.png" alt="Denmark" />
+            <div class="supName">
+              <p>Denmark</p>
+              <a href="denmark.com.dk">denmark.com.dk</a>
+            </div>
+          </div>
+          <div class="supLink">
+            <img src="css/images/flags/FR.png" alt="France" />
+            <div class="supName">
+              <p>France</p>
+              <a href="shopname.com.fr">shopname.com.fr</a>
+            </div>
+          </div>
+          <div class="supLink">
+            <img src="css/images/flags/AE.png" alt="AEU" />
+            <div class="supName">
+              <p>Arabic Emirates</p>
+              <a href="shopname.ae">shopname.ae</a>
+            </div>
+          </div>
+          <div class="supLink">
+            <img src="css/images/flags/CN.png" alt="China" />
+            <div class="supName">
+              <p>China</p>
+              <a href="shopname.ae">shopname.ae</a>
+            </div>
+          </div>
+          <div class="supLink">
+            <img src="css/images/flags/GB.png" alt="GB" />
+            <div class="supName">
+              <p>Great Britain</p>
+              <a href="shopname.co.uk">shopname.co.uk</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="subscribe">
+        <h4>Subscribe on our newsletter</h4>
+        <p>
+          Get daily news on upcoming offers from many suppliers all over the
+          world
+        </p>
+        <form action="" class="subForm">
+          <div class="sub">
+            <input type="email" name="email" id="email" placeholder="Email" />
+            <img src="css/images/email.svg" alt="email" class="mailImg" />
+            <button class="subBtn">Subscribe</button>
+          </div>
+        </form>
+      </div>
+      <div class="footer">
+        <div class="socials">
+            <a href="#"><img src="css/images/logo-colored.svg" class="socImg" alt="logo"></a>
+            <p>Best information about the company gies here but now lorem ipsum is</p>
+            <div class="socialsIcons">
+                <a href="#">
+                    <img src="css/images/logos/facebook3.svg" class="socIcon" alt="facebook">
+                </a>
+                <a href="#">
+                    <img src="css/images/logos/twitter3.svg" class="socIcon" alt="twitter">
+                </a>
+                <a href="#">
+                    <img src="css/images/logos/linkedin3.svg" class="socIcon" alt="linkedin">
+                </a>
+                <a href="#">
+                    <img src="css/images/logos/instagram3.svg" class="socIcon" alt="instagram">
+                </a>
+                <a href="#">
+                    <img src="css/images/logos/youtube3.svg" class="socIcon" alt="youtube">
+                </a>
             </div>
         </div>
-        <section class="dealsOffers">
-            <div class="deal-offer">
-                <div class="dates">
-                    <h4>Deals and offers</h4>
-                    <p>Hygiene equipments</p>
-                    <div class="date">
-                        <div class="box">
-                            <p class="day txtBox"></p>
-                            <p class="time">Days</p>
-                        </div>
-                        <div class="box">
-                            <p class="hour txtBox"></p>
-                            <p class="time">Hours</p>
-                        </div>
-                        <div class="box">
-                            <p class="min txtBox"></p>
-                            <p class="time">Min</p>
-                        </div>
-                        <div class="box">
-                            <p class="sec txtBox"></p>
-                            <p class="time">Sec</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="dealItems">
-                    <img src="css/images/tech/8.jpg" alt="watch">
-                    <p class="dealItemtxt">Smart watches</p>
-                    <div class="sale">-25%</div>
-                </div>
-                <div class="dealItems">
-                    <img src="css/images/tech/7.jpg" alt="laptop">
-                    <p class="dealItemtxt">Laptops</p>
-                    <div class="sale">-15%</div>
-                </div>
-                <div class="dealItems">
-                    <img src="css/images/tech/6.jpg" alt="camera">
-                    <p class="dealItemtxt">GoPro cameras</p>
-                    <div class="sale">-40%</div>
-                </div>
-                <div class="dealItems">
-                    <img src="css/images/tech/5.jpg" alt="headphone">
-                    <p class="dealItemtxt">Headphones</p>
-                    <div class="sale">-25%</div>
-                </div>
-                <div class="dealItems">
-                    <img src="css/images/tech/3.jpg" alt="phone">
-                    <p class="dealItemtxt">Canon camreras</p>
-                    <div class="sale">-25%</div>
-                </div> 
-            </div>
-        </section>
-    </main>
+        <div class="footCard">
+           <p>About</p> 
+           <a href="#">About Us</a>
+           <a href="#">Find store</a>
+           <a href="#">categories</a>
+           <a href="#">Blog</a>
+        </div>
+        <div class="footCard">
+           <p>Partnership</p> 
+           <a href="#">About Us</a>
+           <a href="#">Find store</a>
+           <a href="#">categories</a>
+           <a href="#">Blog</a>
+        </div>
+        <div class="footCard">
+           <p>information</p> 
+           <a href="#">Help Center</a>
+           <a href="#">Money Refund</a>
+           <a href="#">Shipping</a>
+           <a href="#">Contuct Us</a>
+        </div>
+        <div class="footCard">
+           <p>For users</p> 
+           <a href="#">Login</a>
+           <a href="#">Register</a>
+           <a href="#">Settings</a>
+           <a href="#">My Orders</a>
+        </div>
+        <div class="footCard">
+           <p>Get app</p>
+           <a href="#"><img src="css/images/logos/appstore.svg" alt="appstore"></a>
+           <a href="#"><img src="css/images/logos/googleplay.svg" alt="google play"></a>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>© 2023 Ecommerce. </p>
+    </footer>
     <script src="app.js"></script>
   </body>
 </html>

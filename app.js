@@ -1,3 +1,4 @@
+// shipping
 const countries = [
   { flag: "css/images/flags/AE.png", Text: "UAE" },
   { flag: "css/images/flags/AU.png", Text: "Aus" },
@@ -51,3 +52,27 @@ document.addEventListener("click", (event) => {
 });
 
 // countdown
+function countDownTime() {
+  const newDays = document.querySelector(".day");
+  const newHours = document.querySelector(".hour");
+  const newMinutes = document.querySelector(".min");
+  const newSeconds = document.querySelector(".sec");
+  let countDownDate = new Date("jun 17, 2024 07:00:00").getTime();
+  let today = new Date().getTime();
+  let difference = countDownDate - today;
+  const second = 1000,
+    minute = second * 60,
+    hour = minute * 60,
+    day = hour * 24;
+
+    
+  const targetDay = Math.floor(difference / day);
+  const hours = Math.floor((difference % day) / hour);
+  const minutes = Math.floor((difference % hour) / minute);
+  const seconds = Math.floor((difference % minute) / second);
+  newDays.innerHTML = `${targetDay}`;
+  newHours.innerHTML = `${hours}`;
+  newMinutes.innerHTML = `${minutes}`;
+  newSeconds.innerHTML = `${seconds}`;
+}
+setInterval(countDownTime, 1000);
